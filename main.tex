@@ -1,0 +1,93 @@
+\documentclass[]{article}
+\usepackage{caption}
+\usepackage{tocloft}
+\usepackage{amssymb,amsmath}
+\usepackage{ifxetex,ifluatex}
+\usepackage{fixltx2e} % provides \textsubscript
+
+\usepackage{longtable}
+\usepackage{graphicx}
+\usepackage{tikz}
+
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{6pt plus 2pt minus 1pt}
+\setlength{\emergencystretch}{3em}  % prevent overfull lines
+\setcounter{secnumdepth}{0}
+
+\usepackage[left=1in,right=1in]{geometry}
+\usepackage{float}
+\floatplacement{figure}{h}
+
+
+\setcounter{secnumdepth}{3}
+\addtocontents{toc}{\setcounter{tocdepth}{2}}
+
+\usepackage{sectsty}
+\usepackage[normalem]{ulem}
+\sectionfont{\rmfamily\bfseries\large}
+\subsectionfont{\rmfamily\centering\upshape\normalsize}
+\subsubsectionfont{\centering\normalsize}
+
+\fontsize 12
+\usepackage{hyperref}
+\usepackage{lineno}
+\linenumbers
+\usepackage[font={footnotesize,sf}]{caption}
+\usepackage{siunitx}
+
+\usepackage{setspace}
+\linespread{1.5}
+
+\hyphenpenalty 1000 % no hyphens!
+
+\raggedbottom
+
+\usepackage{titling}
+\pretitle{\LARGE}
+\preauthor{\large}
+\predate{\large}
+\postdate{}
+
+
+\usepackage{fancyhdr}
+\pagestyle{fancy}
+\lhead{  \nouppercase  \leftmark}
+\rhead{\thepage}
+\cfoot{}
+
+\usepackage{authblk}
+
+\title{A software package for estimating the dispersal structure of a landscape using the synchrony of population dynamics \\}
+\author[1,2]{M.D. Catchen} 
+\author[1]{S.M. Flaxman}
+\affil[1]{\small{Department of Ecology and Evolutionary Biology, University of Colorado at Boulder}}
+\affil[2]{\small{Department of Biology, McGill University}}
+\date{\today}
+
+
+\usepackage[square, numbers]{natbib}
+\bibliographystyle{unsrtnat}
+\begin{document}
+\maketitle
+\begin{abstract}
+
+dang ol absrtact here
+
+\end{abstract}
+\clearpage
+\tableofcontents
+\clearpage
+\section{Introduction}
+
+
+\section{Conclusion}
+
+\clearpage
+{
+\footnotesize
+\bibliography{references}
+}
+
+
+
+\end{document}
